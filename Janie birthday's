@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday Janie</title>
+</head>
+
+<body style="margin:0; text-align:center; font-family:sans-serif; background:linear-gradient(135deg,#ff9a9e,#fad0c4); color:white;">
+
+<h1>🎉 Happy Birthday Janie 🎉</h1>
+<h3>Wishing you happiness & smiles 💖</h3>
+
+<div style="font-size:70px;">🎂🕯️🌹🌸</div>
+
+<p style="padding:20px;">
+Janie 💫<br><br>
+You are truly an amazing person 🌸<br>
+Your smile makes everything better ✨<br><br>
+Wishing you happiness and success always 💕
+</p>
+
+<button onclick="start()">🎶 Tap for Surprise</button>
+
+<audio id="m" src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" loop></audio>
+
+<script>
+function start(){
+document.getElementById("m").play().catch(()=>{});
+alert("💖 Enjoy your special day Janie 💖");
+}
+</script>
+
+</body>
+</html>
